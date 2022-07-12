@@ -1,0 +1,10 @@
+<div class="border">
+    <p>parent works!</p>
+    Parent:
+    <button (click)="changeProductStatus()">Parent</button>
+    {{ product.active }}
+    {{ product.name }}
+    {{ product.value }}
+    <button (click)="sumProductValue()">ParentSum</button>
+    <app-child1 [(product)]="product"></app-child1>
+</div>
